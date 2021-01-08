@@ -1,0 +1,21 @@
+WHEN legal_var = legal_var
+WHEN legal_var != legal_var
+WHEN legal_var <= legal_var
+WHEN legal_var >= legal_var
+AND legal_var = legal_var
+AND legal_var != legal_var
+AND legal_var <= legal_var
+AND legal_var >= legal_var
+AND random_substr_precede legal_var >= legal_var
+random_substr_precede legal_var >= legal_var random_succeed
+AND legal_var >= legal_var random_succeed
+AND _valid$sql_name = _valid$sql_name
+WHEN bool_invalid $= bool_invalid
+WHEN bool_invalid #= bool_invalid
+WHEN bool_invalid =! bool_invalid
+WHEN bool_invalid =^ bool_invalid
+WHEN bool_invalid (= bool_invalid
+WHEN bool_invalid =) bool_invalid
+WHEN close_example != close_example_1
+WHEN close_example_1 = close_example
+
