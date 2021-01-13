@@ -5,7 +5,7 @@ from typing import List
 def find_duplicate_assignment_line_nos(filename: str) -> List[int]:
     line_no = 0
     line_nos = []
-    exp = r"(\s)+(.+(\))?)(\s+)*[!><]*=(\s+)*\2(\s+)"
+    exp = r"(\s)+(.+(\))?)(\s+)*[!><]?=(\s+)*\2(\s+)"
     pattern = re.compile(exp)
     with open(filename) as fp:
         Lines = fp.readlines()

@@ -13,6 +13,7 @@ AND _valid$sql_name = _valid$sql_name
 WHEN bool_invalid $= bool_invalid
 WHEN bool_invalid #= bool_invalid
 WHEN bool_invalid =! bool_invalid
+WHEN bool_invalid !!= bool_invalid
 WHEN bool_invalid =^ bool_invalid
 WHEN bool_invalid (= bool_invalid
 WHEN bool_invalid =) bool_invalid
